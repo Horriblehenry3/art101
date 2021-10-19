@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+}
+#box1 {
+  background-color: #FFCCFF;
+  height: 200px;
+  width: 700px;
+}
+#box2 {
+  background-color: #d2742e;
+  height: 200px;
+  width: 700px;
+}#box3 {
+  background-color: #094986;
+  height: 200px;
+  width: 700px;
+}
+h3 {
+  color: white;
+}
+p3 {
+  color: white;
+}
+#old {
+    width: 200px;
+    height: 200px;
+}
+div.static {
+  position: static;
+
+  border: 3px solid #73AD21;
+}
+#htm
+{width: 500px;
+height: 400px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
