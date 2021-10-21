@@ -10,7 +10,8 @@ body {
   background-color: #4CAF50;
   height: 200px;
   width: 700px;
-}#box3 {
+}
+#box3 {
   background-color: #094986;
   height: 200px;
   width: 700px;
@@ -28,5 +29,5 @@ p3 {
 div.static {
   position: static;
 
-  border: 3px solid #73AD21;
+  border: 4px solid #73AD21;
 }
