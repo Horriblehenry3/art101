@@ -1,0 +1,31 @@
+body {
+  background-color: maroon;
+}
+#box1 {
+  background-color: #FF9880;
+  height: 200px;
+  width: 700px;
+}
+#box2 {
+  background-color: #4FAF50;
+  height: 200px;
+  width: 700px;
+}
+#box3 {
+  background-color: #094586;
+  height: 200px;
+  width: 700px;
+}
+h3 {
+  color: white;
+}
+p3 {
+  color: white;
+}
+#old {
+    width: 200px;
+    height: 200px;
+}
+#script {
+  font-size: 35px;
+}

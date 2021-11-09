@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="js\lab.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+
+</head>
+
+	<body>
+	<h1> Lab 7 - Anon funcitons and callbacks </h1>
+
+	<div id="box1">
+		<h1> Challenges </h1>
+		<p> Using the .Map funtion to apply funtions to an entire array, test out some basic calcultations with functions. </p>
+	</div>
+
+	<div id="box2">
+		<h2> Problems </h2>
+		<p>I misspelled function... haha, couldnt get task x to work the first few times. IN fact I still cant get it to respond how I want it.
+			 I cant have my results start as hidden and have the button unhide them. </p>
+	</div>
+
+	<div id=box3 >
+		<h3> Results </h3>
+		<p3> Below is my array of 1 through 5, the button will execute my function of adding 5 to each number. </p>
+	</div>
+
+	<p id="java"></p>
+
+	<script>
+	document.getElementById("java").innerHTML = num;
+</script>
+
+ <button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+	<p id="demo"></p>
+
+	<script>
+	document.getElementById("demo").innerHTML = results;
+	</script>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+	</body>
+</html>
